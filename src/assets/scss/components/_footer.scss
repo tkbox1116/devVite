@@ -1,0 +1,14 @@
+@use "sass:math";
+@use "../inc" as *;
+
+.footer {
+  padding: pxtorem(20);
+  background-color: #444;
+
+  .copy {
+    font-size: pxtorem(16);
+    color: $colorWhite;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

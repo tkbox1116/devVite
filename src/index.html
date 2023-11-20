@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <link rel="stylesheet" href="assets/scss/common.scss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+
+    <script type="module" src="/assets/ts/main.ts"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="header__title">
+          <a href="/" class="logo">
+            <img src="/assets/images/common/vite.svg" alt="テストロゴのaltです。" loading="eager" />
+          </a>
+        </h1>
+
+        <nav class="header__nav">
+          <button type="button" class="js-drawer hamburger" aria-controls="globalNav" aria-expanded="false">
+            <span class="hamburger__line">
+              <span class="visually-hidden">メニューを開閉</span>
+            </span>
+          </button>
+          <div id="globalNav" class="globalNav">
+            <ul class="globalNav__list">
+              <li class="globalNav__item">
+                <a class="globalNav__link" href="/">Home</a>
+              </li>
+              <li class="globalNav__item">
+                <a class="globalNav__link" href="/about">About</a>
+              </li>
+              <li class="globalNav__item">
+                <a class="globalNav__link" href="/works">Works</a>
+              </li>
+              <li class="globalNav__item">
+                <a class="globalNav__link" href="/contact">Cotnact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- /.p-header__inner -->
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <img src="/assets/images/cover.jpg" alt="" />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="copy"><small>&copy; All Rights Reserved</small></p>
+    </footer>
+  </body>
+</html>
