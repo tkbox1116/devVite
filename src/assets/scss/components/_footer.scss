@@ -2,11 +2,11 @@
 @use "../inc" as *;
 
 .footer {
-  padding: pxtorem(20);
+  padding: pxToRem(20);
   background-color: #444;
 
   .copy {
-    font-size: pxtorem(16);
+    font-size: pxToRem(16);
     color: $colorWhite;
     text-align: center;
     text-transform: uppercase;
