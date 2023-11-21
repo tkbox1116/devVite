@@ -10,9 +10,6 @@
     "lint:html": "markuplint \"**/*.html\""
   },
   "devDependencies": {
-    "@hilosiva/vite-plugin-html-oreder": "^0.1.1",
-    "@hilosiva/vite-plugin-image-oretimaizer": "^0.2.2",
-    "@macropygia/vite-plugin-imagemin-cache": "^0.1.2",
     "autoprefixer": "^10.4.16",
     "css-declaration-sorter": "^7.1.1",
     "markuplint": "^3.14.0",
